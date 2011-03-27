@@ -1,0 +1,5 @@
+[autorun]
+open=EZQuotePlus\EZQuotePlus_v3.5.3021.exe
+shellexecute=EZQuotePlus\EZQuotePlus_v3.5.3021.exe
+icon=dotnet.ico
+label=EZQuote Plus

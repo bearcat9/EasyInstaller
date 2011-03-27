@@ -1,0 +1,14 @@
+C:\Users\steppsr\Documents\SharpDevelop Projects\EasyInstaller\EasyInstaller\bin\Debug\EasyInstaller.exe
+C:\Users\steppsr\Documents\SharpDevelop Projects\EasyInstaller\EasyInstaller\bin\Debug\EasyInstaller.pdb
+C:\Users\steppsr\Documents\SharpDevelop Projects\EasyInstaller\EasyInstaller\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\steppsr\Documents\SharpDevelop Projects\EasyInstaller\EasyInstaller\obj\Debug\EasyInstaller.MainForm.resources
+C:\Users\steppsr\Documents\SharpDevelop Projects\EasyInstaller\EasyInstaller\obj\Debug\EasyInstaller.vbproj.GenerateResource.Cache
+C:\Users\steppsr\Documents\SharpDevelop Projects\EasyInstaller\EasyInstaller\obj\Debug\EasyInstaller.exe
+C:\Users\steppsr\Documents\SharpDevelop Projects\EasyInstaller\EasyInstaller\obj\Debug\EasyInstaller.pdb
+C:\Users\Steve Stepp\Documents\SharpDevelop Projects\EasyInstaller\EasyInstaller\obj\Debug\EasyInstaller.exe
+C:\Users\Steve Stepp\Documents\SharpDevelop Projects\EasyInstaller\EasyInstaller\obj\Debug\EasyInstaller.pdb
+C:\Users\Steve Stepp\Documents\SharpDevelop Projects\EasyInstaller\EasyInstaller\bin\Debug\EasyInstaller.exe
+C:\Users\Steve Stepp\Documents\SharpDevelop Projects\EasyInstaller\EasyInstaller\bin\Debug\EasyInstaller.pdb
+C:\Users\Steve Stepp\Documents\SharpDevelop Projects\EasyInstaller\EasyInstaller\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Steve Stepp\Documents\SharpDevelop Projects\EasyInstaller\EasyInstaller\obj\Debug\EasyInstaller.MainForm.resources
+C:\Users\Steve Stepp\Documents\SharpDevelop Projects\EasyInstaller\EasyInstaller\obj\Debug\EasyInstaller.vbproj.GenerateResource.Cache
