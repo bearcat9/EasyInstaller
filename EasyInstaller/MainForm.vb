@@ -365,7 +365,7 @@ Public Partial Class MainForm
 			button7.Visible = True
 			button8.Visible = True
 			button9.Visible = True
-			button10.Visible = True
+			button10.Visible = True			
 		Else
 			button1.Width = 144
 			button2.Width = 144
