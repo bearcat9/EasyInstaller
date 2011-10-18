@@ -1,3 +1,3 @@
-EasyInstaller is a small .NET application that will provide the user the option of four different buttons to launch installation files, prerequisite files, support files, etc. right from a small window. Its main purposes is to be run from an "autorun.inf" file on a CDROM.
+EasyInstaller is a small VB.NET application that will provide the user the option of four different buttons to launch installation files, prerequisite files, support files, etc. right from a small window. Its main purposes is to be run from an "autorun.inf" file on a CDROM.
 
 Under the EasyInstaller folder, there is a HTML file which will populate the text contents of the window, but also in the comments of the HTML code is where the buttons can be labeled, pointed to an installation program, and even check for a prerequisite and install that program if necessary.
