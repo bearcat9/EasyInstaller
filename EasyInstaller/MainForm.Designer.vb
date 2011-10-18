@@ -41,6 +41,11 @@ Partial Class MainForm
 		Me.button4 = New System.Windows.Forms.Button
 		Me.button5 = New System.Windows.Forms.Button
 		Me.webBrowser1 = New System.Windows.Forms.WebBrowser
+		Me.button6 = New System.Windows.Forms.Button
+		Me.button7 = New System.Windows.Forms.Button
+		Me.button8 = New System.Windows.Forms.Button
+		Me.button9 = New System.Windows.Forms.Button
+		Me.button10 = New System.Windows.Forms.Button
 		CType(Me.pictureBox1,System.ComponentModel.ISupportInitialize).BeginInit
 		CType(Me.pictureBox2,System.ComponentModel.ISupportInitialize).BeginInit
 		Me.SuspendLayout
@@ -68,7 +73,7 @@ Partial Class MainForm
 		Me.button1.Enabled = false
 		Me.button1.Location = New System.Drawing.Point(442, 162)
 		Me.button1.Name = "button1"
-		Me.button1.Size = New System.Drawing.Size(144, 40)
+		Me.button1.Size = New System.Drawing.Size(69, 40)
 		Me.button1.TabIndex = 2
 		Me.button1.UseVisualStyleBackColor = true
 		AddHandler Me.button1.Click, AddressOf Me.Button1Click
@@ -78,7 +83,7 @@ Partial Class MainForm
 		Me.button2.Enabled = false
 		Me.button2.Location = New System.Drawing.Point(442, 208)
 		Me.button2.Name = "button2"
-		Me.button2.Size = New System.Drawing.Size(144, 40)
+		Me.button2.Size = New System.Drawing.Size(69, 40)
 		Me.button2.TabIndex = 3
 		Me.button2.UseVisualStyleBackColor = true
 		AddHandler Me.button2.Click, AddressOf Me.Button2Click
@@ -88,7 +93,7 @@ Partial Class MainForm
 		Me.button3.Enabled = false
 		Me.button3.Location = New System.Drawing.Point(442, 254)
 		Me.button3.Name = "button3"
-		Me.button3.Size = New System.Drawing.Size(144, 40)
+		Me.button3.Size = New System.Drawing.Size(69, 40)
 		Me.button3.TabIndex = 4
 		Me.button3.UseVisualStyleBackColor = true
 		AddHandler Me.button3.Click, AddressOf Me.Button3Click
@@ -98,18 +103,18 @@ Partial Class MainForm
 		Me.button4.Enabled = false
 		Me.button4.Location = New System.Drawing.Point(442, 300)
 		Me.button4.Name = "button4"
-		Me.button4.Size = New System.Drawing.Size(144, 40)
+		Me.button4.Size = New System.Drawing.Size(69, 40)
 		Me.button4.TabIndex = 5
 		Me.button4.UseVisualStyleBackColor = true
 		AddHandler Me.button4.Click, AddressOf Me.Button4Click
 		'
 		'button5
 		'
-		Me.button5.Location = New System.Drawing.Point(442, 346)
+		Me.button5.Enabled = false
+		Me.button5.Location = New System.Drawing.Point(442, 344)
 		Me.button5.Name = "button5"
-		Me.button5.Size = New System.Drawing.Size(144, 40)
+		Me.button5.Size = New System.Drawing.Size(69, 40)
 		Me.button5.TabIndex = 6
-		Me.button5.Text = "Close"
 		Me.button5.UseVisualStyleBackColor = true
 		AddHandler Me.button5.Click, AddressOf Me.Button5Click
 		'
@@ -122,12 +127,67 @@ Partial Class MainForm
 		Me.webBrowser1.Size = New System.Drawing.Size(428, 222)
 		Me.webBrowser1.TabIndex = 7
 		'
+		'button6
+		'
+		Me.button6.Enabled = false
+		Me.button6.Location = New System.Drawing.Point(517, 162)
+		Me.button6.Name = "button6"
+		Me.button6.Size = New System.Drawing.Size(69, 40)
+		Me.button6.TabIndex = 8
+		Me.button6.UseVisualStyleBackColor = true
+		AddHandler Me.button6.Click, AddressOf Me.Button6Click
+		'
+		'button7
+		'
+		Me.button7.Enabled = false
+		Me.button7.Location = New System.Drawing.Point(517, 208)
+		Me.button7.Name = "button7"
+		Me.button7.Size = New System.Drawing.Size(69, 40)
+		Me.button7.TabIndex = 9
+		Me.button7.UseVisualStyleBackColor = true
+		AddHandler Me.button7.Click, AddressOf Me.Button7Click
+		'
+		'button8
+		'
+		Me.button8.Enabled = false
+		Me.button8.Location = New System.Drawing.Point(517, 254)
+		Me.button8.Name = "button8"
+		Me.button8.Size = New System.Drawing.Size(69, 40)
+		Me.button8.TabIndex = 10
+		Me.button8.UseVisualStyleBackColor = true
+		AddHandler Me.button8.Click, AddressOf Me.Button8Click
+		'
+		'button9
+		'
+		Me.button9.Enabled = false
+		Me.button9.Location = New System.Drawing.Point(517, 300)
+		Me.button9.Name = "button9"
+		Me.button9.Size = New System.Drawing.Size(69, 40)
+		Me.button9.TabIndex = 11
+		Me.button9.UseVisualStyleBackColor = true
+		AddHandler Me.button9.Click, AddressOf Me.Button9Click
+		'
+		'button10
+		'
+		Me.button10.Location = New System.Drawing.Point(517, 344)
+		Me.button10.Name = "button10"
+		Me.button10.Size = New System.Drawing.Size(69, 40)
+		Me.button10.TabIndex = 12
+		Me.button10.Text = "E&xit"
+		Me.button10.UseVisualStyleBackColor = true
+		AddHandler Me.button10.Click, AddressOf Me.Button10Click
+		'
 		'MainForm
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.BackColor = System.Drawing.Color.White
 		Me.ClientSize = New System.Drawing.Size(598, 396)
+		Me.Controls.Add(Me.button10)
+		Me.Controls.Add(Me.button9)
+		Me.Controls.Add(Me.button8)
+		Me.Controls.Add(Me.button7)
+		Me.Controls.Add(Me.button6)
 		Me.Controls.Add(Me.webBrowser1)
 		Me.Controls.Add(Me.button5)
 		Me.Controls.Add(Me.button4)
@@ -143,6 +203,11 @@ Partial Class MainForm
 		CType(Me.pictureBox2,System.ComponentModel.ISupportInitialize).EndInit
 		Me.ResumeLayout(false)
 	End Sub
+	Private button10 As System.Windows.Forms.Button
+	Private button9 As System.Windows.Forms.Button
+	Private button8 As System.Windows.Forms.Button
+	Private button7 As System.Windows.Forms.Button
+	Private button6 As System.Windows.Forms.Button
 	Private webBrowser1 As System.Windows.Forms.WebBrowser
 	Private button5 As System.Windows.Forms.Button
 	Private button4 As System.Windows.Forms.Button
