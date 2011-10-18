@@ -1,3 +1,86 @@
-EasyInstaller is a small VB.NET application that will provide the user the option of four different buttons to launch installation files, prerequisite files, support files, etc. right from a small window. Its main purposes is to be run from an "autorun.inf" file on a CDROM.
+EasyInstaller is a small VB.NET application that will provide the user the option of four or nine different buttons to launch installation files, prerequisite files, support files, etc. right from a small window. Its main purposes is to be run from an "autorun.inf" file on a CDROM.
 
-Under the EasyInstaller folder, there is a HTML file which will populate the text contents of the window, but also in the comments of the HTML code is where the buttons can be labeled, pointed to an installation program, and even check for a prerequisite and install that program if necessary.
+Under the EasyInstaller folder, there is a HTML file which will populate the text contents of the window, but also in the comments of the HTML code is where there are settings for the number of buttons and the buttons can be labeled, pointed to an installation program, and even check for a prerequisite and install that program if necessary.
+
+Below is a sample of the HTML comments containing the configuration settings:
+<!--
+THESE SETTINGS ARE FOR ASSIGNING FOLDERS & FILES TO THE BUTTONS FOR EASYINSTALLER
+COMPANY_NAME=Acme Rockets
+APP_NAME=Super Duper Rocket Builder
+
+# Will determine the number of buttons available, can be either 5 or 10 only.
+BUTTON_CONFIG=5
+
+Button1_Folder=AcmeSDRocketBuilder
+Button1_File=setup.exe
+Button1_Title=Install Super Duper Rocket Builder
+Button1_Prereq_Folder=
+Button1_Prereq_File=
+Button1_Prereq_Install_File=
+Button1_Prereq_Install_Folder=
+
+Button2_Folder=
+Button2_File=
+Button2_Title=
+Button2_Prereq_Folder=
+Button2_Prereq_File=
+Button2_Prereq_Install_File=
+Button2_Prereq_Install_Folder=
+
+Button3_Folder=
+Button3_File=
+Button3_Title=
+Button3_Prereq_Folder=
+Button3_Prereq_File=
+Button3_Prereq_Install_File=
+Button3_Prereq_Install_Folder=
+
+Button4_Folder=
+Button4_File=
+Button4_Title=
+Button4_Prereq_Folder=
+Button4_Prereq_File=
+Button4_Prereq_Install_File=
+Button4_Prereq_Install_Folder=
+
+Button5_Folder=
+Button5_File=
+Button5_Title=
+Button5_Prereq_Folder=
+Button5_Prereq_File=
+Button5_Prereq_Install_File=
+Button5_Prereq_Install_Folder=
+
+Button6_Folder=
+Button6_File=
+Button6_Title=
+Button6_Prereq_Folder=
+Button6_Prereq_File=
+Button6_Prereq_Install_File=
+Button6_Prereq_Install_Folder=
+
+Button7_Folder=
+Button7_File=
+Button7_Title=
+Button7_Prereq_Folder=
+Button7_Prereq_File=
+Button7_Prereq_Install_File=
+Button7_Prereq_Install_Folder=
+
+Button8_Folder=
+Button8_File=
+Button8_Title=
+Button8_Prereq_Folder=
+Button8_Prereq_File=
+Button8_Prereq_Install_File=
+Button8_Prereq_Install_Folder=
+
+Button9_Folder=
+Button9_File=
+Button9_Title=
+Button9_Prereq_Folder=
+Button9_Prereq_File=
+Button9_Prereq_Install_File=
+Button9_Prereq_Install_Folder=
+
+-->
